@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thế Giới Thức Uống Cà Phê - Lê Võ Hoàng Ân</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {font-family: Arial, sans-serif; margin:0; line-height:1.7; background:#f4f4f4;}
+        header {background:#4b2e2b; color:#fff; padding:15px 30px; position:sticky; top:0;}
+        header nav a {color:#fff; margin-right:18px; text-decoration:none; font-weight:bold;}
+        .banner {
+            background:url('https://images.unsplash.com/photo-1511920170033-f8396924c348') center/cover no-repeat;
+            color:white; padding:120px 20px; text-align:center;
+        }
+        .section {padding:50px 30px; background:#fff; margin:25px;}
+        h1, h2, h3 {color:#4b2e2b;}
+        .cards {
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:25px;
+        }
+        .card {
+            background:#fafafa;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 3px 8px rgba(0,0,0,0.12);
+        }
+        footer {background:#2e2e2e; color:#fff; text-align:center; padding:25px;}
+        button {
+            background:#4b2e2b;
+            color:#fff;
+            border:none;
+            padding:12px 25px;
+            border-radius:6px;
+            font-size:16px;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#home">Trang chủ</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#history">Lịch sử cà phê</a>
+        <a href="#coffee">Các loại cà phê</a>
+        <a href="#method">Cách pha</a>
+        <a href="#benefit">Lợi ích</a>
+        <a href="#harm">Tác hại</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+</header>
+
+<section class="banner" id="home">
+    <h1 style="color:#ffffff; text-shadow: 2px 2px 6px #000;">
+  Cà phê – Hương vị đánh thức mỗi ngày
+</h1>
+
+    <p>Website cung cấp kiến thức cơ bản, kinh nghiệm và văn hóa cà phê</p>
+    <button onclick="location.href='#coffee'">Khám phá thế giới cà phê</button>
+</section>
+
+<section class="section" id="about">
+    <h2>Giới thiệu Website</h2>
+    <p>
+        Website <b>Thế Giới Thức Uống Cà Phê</b> được thực hiện bởi 
+        <b>Lê Võ Hoàng Ân – sinh viên lớp 25DBV1A</b>. 
+        Trang web được xây dựng nhằm giới thiệu những kiến thức cơ bản về cà phê, 
+        từ nguồn gốc, các loại cà phê phổ biến cho đến cách pha và lợi ích trong đời sống.
+    </p>
+    <p>
+        Cà phê không chỉ là một loại thức uống quen thuộc mà còn là một phần văn hóa 
+        gắn liền với sinh viên, người đi làm và xã hội hiện đại.
+    </p>
+</section>
+
+<section class="section" id="history">
+    <h2>Lịch sử và nguồn gốc cà phê</h2>
+    <p>
+        Cà phê có nguồn gốc từ châu Phi và dần lan rộng ra khắp thế giới. 
+        Tại Việt Nam, cà phê trở thành một trong những ngành nông nghiệp quan trọng 
+        và là nét văn hóa đặc trưng.
+    </p>
+    <p>
+        Văn hóa cà phê Việt Nam nổi bật với cách pha phin truyền thống, 
+        mang lại hương vị đậm đà và chậm rãi.
+    </p>
+</section>
+
+<section class="section" id="coffee">
+    <h2>Các loại cà phê phổ biến</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Cà phê đen</h3>
+            <p>Cà phê nguyên chất, vị đắng mạnh, giúp tỉnh táo nhanh.</p>
+            <p>Phù hợp với người thích hương vị truyền thống.</p>
+        </div>
+        <div class="card">
+            <h3>Cà phê sữa</h3>
+            <p>Kết hợp cà phê và sữa đặc, vị béo ngọt.</p>
+            <p>Là thức uống quen thuộc của sinh viên Việt Nam.</p>
+        </div>
+        <div class="card">
+            <h3>Cappuccino</h3>
+            <p>Xuất xứ từ Ý, gồm espresso, sữa nóng và bọt sữa.</p>
+            <p>Hương vị nhẹ, dễ uống.</p>
+        </div>
+        <div class="card">
+            <h3>Latte</h3>
+            <p>Nhiều sữa, ít đắng, thích hợp cho người mới uống cà phê.</p>
+        </div>
+        <div class="card">
+            <h3>Espresso</h3>
+            <p>Đậm đặc, hàm lượng caffeine cao.</p>
+            <p>Thường làm nền cho các loại cà phê khác.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="method">
+    <h2>Cách pha cà phê cơ bản</h2>
+    <p><b>1. Pha phin truyền thống:</b> Dùng bột cà phê xay mịn, nước sôi và phin.</p>
+    <p><b>2. Pha máy:</b> Sử dụng máy espresso hiện đại.</p>
+    <p><b>3. Cold brew:</b> Ngâm cà phê với nước lạnh trong nhiều giờ.</p>
+</section>
+
+<section class="section" id="benefit">
+    <h2>Lợi ích của cà phê</h2>
+    <ul>
+        <li>Giúp tỉnh táo, tăng khả năng tập trung</li>
+        <li>Hỗ trợ tinh thần và giảm căng thẳng</li>
+        <li>Tạo môi trường giao tiếp, kết nối xã hội</li>
+    </ul>
+</section>
+
+<section class="section" id="harm">
+    <h2>Tác hại khi sử dụng quá nhiều</h2>
+    <ul>
+        <li>Mất ngủ, lo lắng</li>
+        <li>Ảnh hưởng tim mạch</li>
+        <li>Phụ thuộc caffeine</li>
+    </ul>
+</section>
+
+<section class="section" id="blog">
+    <h2>Blog & Kinh nghiệm</h2>
+    <p>- Cách chọn cà phê nguyên chất</p>
+    <p>- Nên uống cà phê vào thời điểm nào?</p>
+    <p>- Văn hóa cà phê sinh viên</p>
+</section>
+
+<section class="section" id="contact">
+    <h2>Liên hệ</h2>
+    <p><b>Họ tên:</b> Lê Võ Hoàng Ân</p>
+    <p><b>Lớp:</b> 25DBV1A</p>
+    <p>Website học tập – phục vụ môn Thiết kế Web</p>
+</section>
+
+<footer>
+    <p>© 2026 - Thế Giới Thức Uống Cà Phê | Lê Võ Hoàng Ân</p>
+</footer>
+
+</body>
+</html>
